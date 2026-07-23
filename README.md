@@ -4,19 +4,6 @@ Manage Google Ads from Claude Desktop, Cursor, Codex, Antigravity or any MCP cli
 
 Built by [Abdullah Al Masum](https://webanalyticssolution.com) — Web Analytics Solution (WAS). MIT licensed. 100 % local — Maton is the only outbound network dependency.
 
-## How this differs from `was-google-ads-mcp`
-
-|  | `was-google-ads-mcp` (direct) | **`was-google-ads-mcp-maton`** (this repo) |
-|---|---|---|
-| Google Cloud project | Required (student creates one) | Not needed |
-| OAuth Client ID + Secret | Required | Not needed |
-| Google Ads developer token application | Required (24-72 h approval) | Not needed — Maton provides it |
-| Refresh token | Required (auto-minted by CLI) | Not needed |
-| Setup time | ~15 min per student | ~2 min per student |
-| API version | v24 (current stable) | v23 (whatever Maton proxies) |
-| Data path | Direct to Google | Through Maton's gateway |
-| Best for | Advanced students, production accounts | Training students, quick prototypes, personal use |
-
 ## Prerequisites
 
 | | Required | Notes |
