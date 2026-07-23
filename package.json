@@ -1,0 +1,52 @@
+{
+  "name": "was-google-ads-mcp-maton",
+  "version": "0.1.0",
+  "description": "Shareable Google Ads MCP server backed by Maton API gateway — one API key, no Google developer token application, no OAuth flow. 19 tools covering full Google Ads API surface including conversion tracking, Customer Match, and campaign management. Built by WAS (Web Analytics Solution).",
+  "type": "module",
+  "bin": {
+    "was-google-ads-mcp-maton": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "server.js",
+    "auth.js",
+    "config.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node cli.js",
+    "auth": "node cli.js auth"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "google-ads",
+    "google-ads-api",
+    "maton",
+    "maton-ai",
+    "claude",
+    "claude-desktop",
+    "ppc",
+    "conversion-tracking",
+    "customer-match",
+    "web-analytics",
+    "was"
+  ],
+  "author": "Abdullah Al Masum (Web Analytics Solution)",
+  "license": "MIT",
+  "homepage": "https://github.com/mnsmasum62786/was-google-ads-mcp-maton",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnsmasum62786/was-google-ads-mcp-maton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mnsmasum62786/was-google-ads-mcp-maton/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}
